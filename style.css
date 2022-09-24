@@ -1,31 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
-
-
 /*main*/
-*{
+* {
     margin: 0;
 }
 
-.navbar{
+.navbar {
     background-color: black;
-    color: red;
+    color: #77f9f3;
 
 }
-.navbar span{
+
+.navbar span {
     font-size: 30px;
-font-family:sans-serif
-;}
-.main{
-    text-align:center ;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main {
+    text-align: center;
     background-color: rgb(5, 5, 5);
-    height: vh;
+    height: 100vh;
+}
+
+#main-img {
+    align-items: center;
+    padding-top: 10%;
+}
+
+.main h1 {
+    padding-top: 30%;
+    font-family: 'Oswald', sans-serif;
+    color: #77f9f3;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 70px;
+    text-decoration: underline;
+
+}
+
+.main p {
+    font-size: 20px;
+    padding-top: 40px;
+    font-family: 'Inter Tight', sans-serif;
+    color: whitesmoke;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    #main-img {
+        width: -webkit-fill-available;
+        padding-top: 20px;
+
+    }
+
+    .main h1 {
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 44px;
+        padding-top: 20px;
+    }
+
+    .main p {
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 25px;
+    }
+
+}
+
+/*download*/
+.download{
+    
+    background-color:#222324;  
+    color: aliceblue;
+}
+
+.subject-img{
+    height: 300px;
+    width: 300px;
+}
+
+
+.download{
+    text-align: center;
     
 
 }
-.main h1{
-    padding-top: 40px;
+.download h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:whitesmoke;
 }
-.main p{
-font-size: 20px;
-padding-top: 40px;
+.download a{
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
+.download img{
+    margin-top: 30px;
+
+}
+
+/*footer*/
+.footer-content{
+    background-color: black;
+    color:white;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+
+}   
