@@ -80,10 +80,46 @@
         padding-left: 10px;
         font-size: 25px;
     }
+    .main{
+        height: auto;
+    }
 
 }
 
+/*main-sub*/
+.main-sub{
+    background-color: #222324;
+   height: 100vh;
+    color: whitesmoke;
+    
+}
+.main-sub h2{
+    text-align: center;
+    color:#77f9f3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
 
+}
+
+.main-sub{
+    padding-left: 10px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-sub {
+      height: auto;
+
+    }
+  }
+
+.main-sub ul li{
+
+    list-style-position: inside;
+    padding-top: 20px;
+
+}
 
 /*download*/
 .download{
