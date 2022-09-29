@@ -6,6 +6,7 @@
 .navbar{
     background-color: black;
     color: #77f9f3;
+
     
 
 }
@@ -91,6 +92,7 @@
     background-color: #222324;
    height: 100vh;
     color: whitesmoke;
+ 
     
 }
 .main-sub h2{
@@ -137,11 +139,11 @@
     background-color: #77f9f3;
 }
 
-.download h2{
+.download h4{
     margin-top: 10px;
     margin-bottom: 10px;
     color:whitesmoke;
-    font-size: 50px;
+  
     font-family: 'Oswald', sans-serif;
 
 }
@@ -166,7 +168,7 @@
 
 /*download-sub*/
 .download-sub{
-    background-color:#222324bf;  
+    background-color:#222324;  
     color: aliceblue;
     text-align: center; 
 }
@@ -180,11 +182,11 @@
     background-color: #77f9f3;
 }
 
-.download-sub h2{
+.download-sub h4{
     margin-top: 10px;
     margin-bottom: 10px;
     color:whitesmoke;
-    font-size: 50px;
+    
     font-family: 'Oswald', sans-serif;
 
 }
@@ -199,6 +201,49 @@ padding-top: 10px;
 
 }
 .download-sub a{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.download img{
+    margin-top: 30px;
+
+}
+
+
+/*download-lab*/
+.download-lab{
+    background-color:#222324;  
+    color: aliceblue;
+    text-align: center; 
+}
+
+
+.subject-img{
+    height: 300px;
+    width: 300px;
+}
+.download-lab a{
+    background-color: #77f9f3;
+}
+
+.download-lab h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:whitesmoke;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.download-lab h1{
+padding-top: 10px;
+    margin-bottom: 10px;
+    color:#77f9f3;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+.download-lab a{
     margin-top: 10px;
     margin-bottom: 20px;
 }
